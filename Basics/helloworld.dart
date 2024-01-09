@@ -18,6 +18,11 @@ void main() {
 
   // Learning about double in Dart
   integerExample();
+  
+  // Learning about double in Dart
+  booleanExample();
+
+  
 }
 
 /*
@@ -37,5 +42,20 @@ void integerExample() {
 
 void doubleExample() {
   double myVariable = 2.99;
+  print(myVariable);
+}
+
+void booleanExample() {
+  bool myVariable = true;
+  print(myVariable);
+}
+
+void stringExample() {
+  String myVariable  = "I am a string";
+  String myVariable2  = """
+    I am a multiline
+    string
+    """;
+  
   print(myVariable);
 }
