@@ -13,16 +13,17 @@ void main() {
   //We can invoke twice by writing
   print(twice(2));
 
-  // Learning about integers in Dart
+  // Example of an integer number variable
   integerExample();
 
-  // Learning about double in Dart
+  // Example of a double or known as a floating number variable
   integerExample();
   
-  // Learning about double in Dart
+  // Example of a boolean variable
   booleanExample();
-
   
+  // Example of a String variable
+  stringExample();
 }
 
 /*
@@ -33,7 +34,7 @@ void integerExample() {
    * In the Dart language, an integer uses the reference int. 
    * In the preceding code example, the data type (e.g., int) is 
    * the first part of the declaration. Next, a label is assigned 
-   * to the data type to be used, e.g., myVariable. Finally, we assign 
+   * to the data type for use, e.g., myVariable. Finally, we assign 
    * a value to the data type—in this example, the value of 35.
    */
   int myVariable = 35;
