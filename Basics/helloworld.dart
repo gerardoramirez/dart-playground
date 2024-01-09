@@ -1,9 +1,9 @@
-//Execution of a Dart program always begins with a call to a function called main()
+//Execution of a Dart program always begins with a call to a function called main(). Dart files get parsed from top to bottom. 
 
 /* 
-   * Dart programs has an entry point called main(). It's a function. 
-   * A function consists of a header that gives its name and any parameters followed by a body. 
-   */
+ * Dart programs has an entry point called main(). It's a function. 
+ * A function consists of a header that gives its name and any parameters followed by a body. 
+ */
 void main() {
   // Print statement example
   print('Hola Mundo!');
