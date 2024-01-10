@@ -57,8 +57,15 @@ void stringExample() {
 void printVariablesExample() {
     int intVariable  = 10;
   var boolVariable = true;
-  
+  /*
+   * The print statement can display both static (i.e., a string literal) and variable content.
+   */
   print(intVariable);
+  /* 
+   * Use the $ character to reference a variable in a print statement. 
+   * Prefixing a variable with the $ tells Dart that a variable is being 
+   * used, and it should replace this value.
+   */
   print('$intVariable');
   print('The bool variable is $boolVariable');
 }
