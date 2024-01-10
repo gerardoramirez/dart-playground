@@ -84,3 +84,12 @@ void finalExample() {
   final today = DateTime.now();
   print('Today is day ${today.weekday}');
 }
+
+void exampleOfAssignmentOfNull() {
+  // https://api.dart.dev/stable/2.14.4/dart-core/Null-class.html 
+  int ?myVariable;
+  print ('ten: $myVariable');
+  
+  myVariable = 10;
+  print ('ten: $myVariable');
+}
