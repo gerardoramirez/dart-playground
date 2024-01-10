@@ -69,3 +69,18 @@ void printVariablesExample() {
   print('$intVariable');
   print('The bool variable is $boolVariable');
 }
+
+void constExample(){
+  // Use const to create a variable whose value cannot be reassigned and will be checked at compile time.
+  const daysInYear = 365;
+  print ('There are $daysInYear days in a year');
+}
+
+void finalExample() {
+  /*
+   * Use the final to create a variable whose value cannot be reassigned. 
+   * Unlike a const variable, a final variable value is assigned at runtime.
+   */
+  final today = DateTime.now();
+  print('Today is day ${today.weekday}');
+}
