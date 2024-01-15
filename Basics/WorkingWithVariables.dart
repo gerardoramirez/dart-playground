@@ -1,6 +1,5 @@
 //Execution of a Dart program always begins with a call to a function called main(). Dart files get parsed from top to bottom. 
 
-
 void main() {
 
   // Example of an integer number variable
@@ -86,6 +85,7 @@ void finalExample() {
 }
 
 void exampleOfAssignmentOfNull() {
+  
   // https://api.dart.dev/stable/2.14.4/dart-core/Null-class.html 
   int ?myVariable;
   print ('ten: $myVariable');
